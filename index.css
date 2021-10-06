@@ -1,0 +1,75 @@
+.background{
+  background-image:linear-gradient(to bottom, rgba(58, 58, 58, 0.52), rgba(46, 46, 46, 0.73)),
+    url('image1.jpg');
+    height:35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:100%;
+}
+div .background h1{
+   font-size: 3rem;
+}
+div .head2{
+    padding:10rem 13rem;
+    color:white;
+}
+.buttons{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin:-9rem 12rem;
+}
+.explore button{
+    border:3px solid #495057;
+    border-radius: 2rem;
+    height:3rem;
+    width:7rem;
+    margin:0 1rem;
+    color:whitesmoke;
+    background-color: #FF865E;
+    cursor: pointer;
+}
+.secosec{
+  margin:5em;
+  text-align:center;
+}
+.secosec img{
+  border-radius:50%;
+  height:15em;
+  /* margin-left:27em;
+  margin-top:2em; */
+}
+.secosec h1{
+  text-align: center;
+  background-color: #FF865E;
+
+  color:white;
+}
+.secosec p{
+  padding:2em;
+}
+.third{
+  margin:5em;
+}
+.third h1{
+  text-align: center;
+  background-color:#FF865E;
+  color:white;
+}
+.cards{
+  display:flex;
+  justify-content:space-evenly;
+  margin-bottom:3em;
+  margin-top:3em;
+
+}
+.fourth h1{
+  text-align: center;
+  background-color: #FF865E;
+  color:white;
+
+}
+form{
+  padding:3em 8em;
+}
